@@ -55,7 +55,7 @@ const NowPlaying = ({ isFake }) => {
       {playerState !== "OFFLINE" ? (
         <div className="now-playing__container">
           <img
-            src="./src/assets/icons/spotify.png"
+            src="/assets/icons/spotify.png"
             className="now-playing__logo"
             alt="now playing logo"
           />
@@ -79,8 +79,7 @@ const NowPlaying = ({ isFake }) => {
             />
             <img
               className="now-playing__status"
-              // src="/src/assets/icons/play_circle.svg"
-              src={`./src/assets/icons/${playerState === "PLAY" ? "play_circle" : "pause_circle"}.svg`}
+              src={`/assets/icons/${playerState === "PLAY" ? "play_circle" : "pause_circle"}.svg`}
               alt="player status icon"
             />
           </div>
