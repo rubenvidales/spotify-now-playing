@@ -1,5 +1,7 @@
 # Spotify Now Playing
 
+You can see the project online [here](https://spotify-now-playing-rubenvidales.vercel.app/)
+
 ## Introduction
 
 I took this [article from Medium](https://medium.com/@alagappan.dev/create-a-now-playing-widget-using-the-spotify-web-api-in-react-a6cb564ed923) to develop a small React project where I will apply the acquired knowledge.
@@ -38,4 +40,4 @@ VITE_REACT_APP_SPOTIFY_REFRESH_TOKEN=<your refresh token>
 
 - localStorage usage
 - TDD practice
-- deployment (TODO)
+- deployment in Vercel
