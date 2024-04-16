@@ -31,7 +31,7 @@ VITE_REACT_APP_SPOTIFY_REFRESH_TOKEN=<your refresh token>
 
 - Offline mode in NowPlaying component
 
-## Assets used
+## Used assets
 
 - Material Design Icons (by Google)
 - Spotify logo (by Spotify)
